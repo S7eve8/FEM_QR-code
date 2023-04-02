@@ -1,11 +1,19 @@
 <script setup>
-import QrCode from './components/QrCode.vue';
-
+import TheQrcode from './components/TheQrcode.vue'
 </script>
 
 <template>
-	<QrCode></QrCode>
+	<TheQrcode></TheQrcode>
 </template>
 
-<style scoped>
+<style>
+html,
+body,
+#app {
+	height: 100%;
+}
+
+#app {
+	background-color: var(--light-gray);
+}
 </style>
